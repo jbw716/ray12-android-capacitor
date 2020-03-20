@@ -1,0 +1,50 @@
+{
+  "name": "ray12-android-capacitor",
+  "version": "0.0.1",
+  "description": "Capacitor plugin for the Ray12 SDK for Android.",
+  "main": "dist/esm/index.js",
+  "types": "dist/esm/index.d.ts",
+  "scripts": {
+    "build": "npm run clean && tsc",
+    "clean": "rimraf ./dist",
+    "watch": "tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "author": "Phillip Jeremiah Weaver",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "@capacitor/core": "latest"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.0",
+    "typescript": "^3.2.4",
+    "@capacitor/ios": "latest",
+    "@capacitor/android": "latest"
+  },
+  "files": [
+    "dist/",
+    "ios/",
+    "android/",
+    "Ray12AndroidCapacitor.podspec"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "capacitor": {
+    "ios": {
+      "src": "ios"
+    },
+    "android": {
+      "src": "android"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jbw716/ray12-android-capacitor"
+  },
+  "bugs": {
+    "url": "https://github.com/jbw716/ray12-android-capacitor/issues"
+  }
+}
