@@ -16,9 +16,10 @@ export class RayAndroidCapWeb extends WebPlugin implements RayAndroidCapPlugin {
 
   UhfReadDataFromSingleTag(): string {
     throw 'Error: This plugin is only compatible on the Android platform.';
+    return '';
   }
 
-  closeApp(): string {
+  closeApp(): void {
     throw 'Error: This plugin is only compatible on the Android platform.';
   }
 
