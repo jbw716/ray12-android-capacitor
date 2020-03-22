@@ -42,9 +42,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jbw716/ray12-android-capacitor"
+    "url": "git+https://github.com/jbw716/ray12-android-capacitor.git"
   },
   "bugs": {
     "url": "https://github.com/jbw716/ray12-android-capacitor/issues"
-  }
+  },
+  "homepage": "https://github.com/jbw716/ray12-android-capacitor#readme"
 }

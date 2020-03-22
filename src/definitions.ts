@@ -6,4 +6,6 @@ declare module "@capacitor/core" {
 
 export interface RayAndroidCapPlugin {
   echo(options: { value: string }): Promise<{value: string}>;
+  UhfReadDataFromSingleTag(): string;
+  closeApp(): void;
 }
