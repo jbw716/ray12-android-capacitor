@@ -1,4 +1,4 @@
-import { WebPlugin } from '@capacitor/core';
+import { WebPlugin, registerWebPlugin } from '@capacitor/core';
 import { RayAndroidCapPlugin } from './definitions';
 
 export class RayAndroidCapWeb extends WebPlugin implements RayAndroidCapPlugin {
@@ -29,5 +29,4 @@ const RayAndroidCap = new RayAndroidCapWeb();
 
 export { RayAndroidCap };
 
-import { registerWebPlugin } from '@capacitor/core';
 registerWebPlugin(RayAndroidCap);
