@@ -29,6 +29,7 @@ public class RayAndroidCap extends Plugin {
 
     @PluginMethod()
     public void closeApp(PluginCall call) {
-        System.exit(0);
+        // System.exit(0);
+        finish();
     }
 }
