@@ -1,4 +1,4 @@
-package me.pjweaver.ray12-android-capacitor;
+package me.pjweaver.ray12androidcapacitor;
 
 import com.getcapacitor.JSObject;
 import com.getcapacitor.NativePlugin;
